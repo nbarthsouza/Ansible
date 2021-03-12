@@ -1,0 +1,17 @@
+---
+- name: 'Instala pacotes do PHP e apache'
+  apt:
+    name:
+      - php7.2
+      - apache2
+      - libapache2-mod-php7.2
+      - php7.2-gd
+      - php-ssh2
+      - libssh-dev
+      - php7.2-dev
+      - libmcrypt-dev
+      - php-pear
+      - python-pymysql
+      - php7.2-mysql
+    state: latest
+  become: yes
