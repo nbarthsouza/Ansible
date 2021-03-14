@@ -11,7 +11,9 @@ Ansible é uma poderosa ferramenta para automação de configuração de servido
 Definições
 --------------
 Playbook: Um playbook é composto por um conjunto de plays.
+
 Tasks: As operações a serem executadas chamando os módulos e passando as opções necessárias.
+
 Roles: permitem que você carregue automaticamente tasks, handlers, e outros.
 
 Nota:
