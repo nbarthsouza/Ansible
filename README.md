@@ -1,6 +1,5 @@
-========================
-Laboratório de Ansible
-========================
+Laboratório Ansible
+-------------------
 
 Objetivo é criar 
 
